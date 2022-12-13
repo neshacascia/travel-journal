@@ -11,4 +11,4 @@ This travel journal is part of Scrimba's Frontend Career Path's React Section 2 
 - CSS Flexbox
 
 ## Lessons Learned
-I learned the importance of creating reusable components. I got to practice mapping over an array of data using array method .map() to render those elements into components. I also got to see how much simpler it is to pass in the entire object which makes accessing the props object easier in my component function.
+I learned the importance of creating reusable components using props. I got to practice mapping over an array of data using array method .map() to render those elements into components. I also got to see how simpler it is to pass in the entire object which makes accessing the props object easier within my component function.
