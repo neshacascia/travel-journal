@@ -5,7 +5,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 export default function BlogPost(props) {
   return (
     <div className="blog-post-container">
-      <img className="blog-post-img" src={`../assets/${props.item.img}`} />
+      <img className="blog-post-img" src={props.item.imageURL} />
 
       <div className="blog-post-text">
         <span className="location">
