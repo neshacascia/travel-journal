@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   const posts = journalData.map(item => {
-    return <BlogPost item={item} />;
+    return <BlogPost item={item} key={item.key} />;
   });
 
   return (
